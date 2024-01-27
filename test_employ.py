@@ -5,6 +5,7 @@ class TestEmploy(unittest.TestCase):
 
     def test_email(self):
 
+        print('Set_up')
         emp_1 = Employee('Lumasia', 'Stan', 44569)
         emp_2 = Employee('Emma', 'Hayes', 77988)
 
@@ -18,6 +19,8 @@ class TestEmploy(unittest.TestCase):
         self.assertEqual(emp_2.email, 'Inno.Hayes@email.com')
 
     def test_fullname(self):
+
+        print('test_fullname')
         emp_1 = Employee('Lumasia', 'Stan', 44569)
         emp_2 = Employee('Emma', 'Hayes', 77988)
         
@@ -32,6 +35,7 @@ class TestEmploy(unittest.TestCase):
 
     def test_apply_raise(self):
 
+        print('test raise')
         emp_1 = Employee('Lumasia', 'Stan', 44569)
         emp_2 = Employee('Emma', 'Hayes', 77988)
 
