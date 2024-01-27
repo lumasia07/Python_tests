@@ -5,7 +5,7 @@ class TestEmploy(unittest.TestCase):
 
     def test_email(self):
 
-        print('Set_up')
+        print('Set_up\n')
         emp_1 = Employee('Lumasia', 'Stan', 44569)
         emp_2 = Employee('Emma', 'Hayes', 77988)
 
@@ -20,7 +20,7 @@ class TestEmploy(unittest.TestCase):
 
     def test_fullname(self):
 
-        print('test_fullname')
+        print('test_fullname\n')
         emp_1 = Employee('Lumasia', 'Stan', 44569)
         emp_2 = Employee('Emma', 'Hayes', 77988)
         
@@ -35,7 +35,7 @@ class TestEmploy(unittest.TestCase):
 
     def test_apply_raise(self):
 
-        print('test raise')
+        print('test raise\n')
         emp_1 = Employee('Lumasia', 'Stan', 44569)
         emp_2 = Employee('Emma', 'Hayes', 77988)
 
