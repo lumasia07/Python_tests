@@ -1,6 +1,6 @@
 class Employee:
     """Moddule for Class Employee"""
-    
+
     raise_amt = 0.05
 
     def __init__(self, first, last, pay):
@@ -9,12 +9,13 @@ class Employee:
         self.pay = pay
 
     @property
-    def email_me(self):
-        return f'{self.first}.{self.last}@emial.com'
+    def email(self):
+        return '{}.{}@email.com'.format(self.first, self.last)
 
     @property
     def fullname(self):
-        return f'{self.first}.{self.last}'
+        return '{} {}'.format(self.first, self.last)
 
     def apply_raise(self):
         self.pay = int(self.pay * self.raise_amt)
+
